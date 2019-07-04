@@ -308,6 +308,8 @@ static const char * const fw_path[] = {
 #ifdef CONFIG_ANDROID
 	"/firmware/" UTS_RELEASE,
 	"/firmware",
+	"/firmware/image/" UTS_RELEASE,
+	"/firmware/image",
 	"/vendor/firmware/" UTS_RELEASE,
 	"/vendor/firmware",
 	"/system/vendor/firmware/" UTS_RELEASE,
